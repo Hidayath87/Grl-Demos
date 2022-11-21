@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text;
 
-class GFG
+class Binary
 {
 
     static void Main(string[] args)
