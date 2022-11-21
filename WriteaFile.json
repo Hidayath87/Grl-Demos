@@ -1,0 +1,10 @@
+import json
+
+data_dict = {
+  "city":"Washington", 
+  "population":300000, 
+  "country":"US"
+}
+
+with open('file.txt', 'w') as json_file:
+json.dump(data_dict, json_file)
