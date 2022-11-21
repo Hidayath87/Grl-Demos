@@ -1,0 +1,9 @@
+import json
+
+with open('<LOCATION/file.json') as f:
+data = json.loads(f)
+
+print(data)
+
+# To Pretty Print
+print(json.dumps(data, indent = 4, sort_keys=True))
